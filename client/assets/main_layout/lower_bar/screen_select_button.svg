@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="10.663mm" height="9.3395mm" version="1.1" viewBox="0 0 10.663 9.3395" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-164.82 -108.76)">
+  <g fill="#ccc" stroke-miterlimit="10" stroke-width=".26458">
+   <path d="m165.91 108.76c-0.59506 0-1.0847 0.48963-1.0847 1.0847v7.1701c0 0.59506 0.48963 1.0847 1.0847 1.0847h7.1706c0.58467 0 1.0847-0.47125 1.0847-1.0847v-2.5926h-0.52916v2.5926c0 0.33906-0.24062 0.55553-0.55552 0.55553h-7.1706c-0.30453 0-0.55553-0.251-0.55553-0.55553v-7.1701c0-0.30453 0.251-0.55552 0.55553-0.55552h7.1706c0.30453 0 0.55552 0.25099 0.55552 0.55552v2.3285h0.52916v-2.3285c0-0.59506-0.48963-1.0847-1.0847-1.0847z" color="#000000" style="-inkscape-stroke:none"/>
+   <g stroke="#ccc">
+    <rect class="st30" x="166.78" y="110.58" width="1.1906" height="1.1906"/>
+    <rect class="st30" x="166.78" y="112.7" width="1.1906" height="1.1906"/>
+    <rect class="st30" x="166.78" y="114.82" width="1.1906" height="1.1906"/>
+   </g>
+  </g>
+  <path class="st29" d="m170.59 113.23h4.8948" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-width=".52917"/>
+  <polygon class="st7" transform="matrix(.26458 0 0 .26458 -25.042 -36.208)" points="744.3 558.7 737.7 564.8 744.3 570.9 745.4 569.8 739.9 564.8 745.4 559.8" fill="#ccc"/>
+ </g>
+</svg>

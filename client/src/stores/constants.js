@@ -1,0 +1,3 @@
+const Placeholders = {};
+
+export { Placeholders };

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8.6258297mm"
+   height="11.537616mm"
+   viewBox="0 0 8.6258295 11.537615"
+   version="1.1"
+   id="svg1343"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="calcel_alarm_button.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1345"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="7.2407734"
+     inkscape:cx="18.644417"
+     inkscape:cy="35.286286"
+     inkscape:window-width="1347"
+     inkscape:window-height="1003"
+     inkscape:window-x="3101"
+     inkscape:window-y="257"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1340" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-171.61639,-105.64387)">
+    <path
+       id="path79"
+       class="st7"
+       d="m 176.74678,107.4534 a 2.9104166,2.9104166 0 0 1 -0.0718,0.58446 c 1.03747,0.35643 1.7942,1.49333 1.7942,2.84685 v 0.0264 c 0,1.56105 0.26489,2.77823 0.84698,3.67782 l 0.26458,0.42323 h -7.24969 l 0.26459,-0.42323 c 0.55562,-0.89959 0.84646,-2.09032 0.84646,-3.67782 l 0.0532,-0.0264 c 0,-0.19768 0.0168,-0.39052 0.0476,-0.57722 a 2.9104166,2.9104166 0 0 1 -0.57103,-0.11421 c -0.0374,0.22449 -0.0589,0.45532 -0.0589,0.69143 0,2.40771 -0.68771,3.28042 -1.11104,3.80959 l -0.0796,0.10594 c -0.0529,0.10583 -0.10594,0.21187 -0.10594,0.34416 0,0.23812 0.15916,0.50281 0.42375,0.50281 h 7.77833 c 0.26459,0 0.42375,-0.23823 0.42375,-0.50281 0,-0.13229 -0.0266,-0.23833 -0.10594,-0.34416 l -0.0796,-0.10594 c -0.42333,-0.50271 -1.11104,-1.37542 -1.11104,-3.80959 0,-1.60918 -0.88481,-3.00154 -2.19884,-3.43131 z m -1.87585,8.69611 c 0.10583,0.58208 0.52917,1.03198 1.05833,1.03198 0.52917,0 0.9525,-0.4499 1.05834,-1.03198 z"
+       style="display:inline;fill:#cccccc;stroke-width:0.264583" />
+    <line
+       class="st11"
+       x1="172.64842"
+       y1="105.83096"
+       x2="175.98218"
+       y2="109.16471"
+       id="line85"
+       style="display:inline;fill:#cccccc;stroke:#cccccc;stroke-width:0.529167;stroke-miterlimit:10" />
+    <line
+       class="st11"
+       x1="175.98218"
+       y1="105.83096"
+       x2="172.64842"
+       y2="109.16471"
+       id="line87"
+       style="display:inline;fill:#cccccc;stroke:#cccccc;stroke-width:0.529167;stroke-miterlimit:10" />
+  </g>
+</svg>

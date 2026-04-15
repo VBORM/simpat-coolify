@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="35.498mm" height="21.235mm" viewBox="0 0 35.498 21.235" version="1.1">
+  <defs>
+    <linearGradient id="fade1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d1d1d"/>
+      <stop offset="1" stop-color="#1d1d1d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="35.498" height="21.235" fill="#101010"/>
+  <rect x="0.85" y="0.85" width="14.6" height="4.15" rx="0.35" fill="#171717" stroke="#404040" stroke-width="0.2"/>
+  <path d="M 1.55 3.6 C 2.65 3.6, 3.25 2.3, 3.95 1.55 C 4.55 0.95, 4.8 3.4, 5.85 3.48 C 6.5 3.48, 6.85 2.62, 7.55 2.62 C 8.45 2.62, 8.95 3.72, 9.95 3.75 L 14.4 3.75" fill="none" stroke="#999999" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="0.85" y="5.6" width="14.6" height="4.15" rx="0.35" fill="#171717" stroke="#404040" stroke-width="0.2"/>
+  <rect x="0.85" y="10.35" width="14.6" height="4.15" rx="0.35" fill="#171717" stroke="#404040" stroke-width="0.2"/>
+  <rect x="0.85" y="15.1" width="14.6" height="4.15" rx="0.35" fill="#171717" stroke="#404040" stroke-width="0.2"/>
+  <rect x="1.15" y="5.85" width="14.0" height="3.55" fill="url(#fade1)"/>
+  <rect x="1.15" y="10.6" width="14.0" height="3.55" fill="url(#fade1)"/>
+  <rect x="1.15" y="15.35" width="14.0" height="3.55" fill="url(#fade1)"/>
+  <rect x="16.2" y="0.85" width="18.45" height="18.4" rx="0.35" fill="#171717" stroke="#404040" stroke-width="0.2"/>
+</svg>

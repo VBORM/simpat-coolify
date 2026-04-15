@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35.498mm"
+   height="21.235mm"
+   version="1.1"
+   viewBox="0 0 35.498 21.235"
+   id="svg107"
+   sodipodi:docname="screen20.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview109"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.7429219"
+     inkscape:cx="-23.39035"
+     inkscape:cy="61.592681"
+     inkscape:window-width="3840"
+     inkscape:window-height="2089"
+     inkscape:window-x="3832"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g21"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs11">
+    <linearGradient
+       id="linearGradient8786-7"
+       x1="87.956"
+       x2="87.759"
+       y1="89.928"
+       y2="112.11"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient8784"
+       gradientTransform="matrix(1,0,0,0.74145613,0,22.383693)" />
+    <linearGradient
+       id="linearGradient8784">
+      <stop
+         stop-color="#1d1d1d"
+         offset="0"
+         id="stop3" />
+      <stop
+         stop-color="#1d1d1d"
+         stop-opacity="0"
+         offset="1"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8150"
+       x1="87.956"
+       x2="87.759"
+       y1="89.928"
+       y2="112.11"
+       gradientTransform="matrix(1,0,0,2.0214,-67.110817,-59.913901)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient8784" />
+    <linearGradient
+       id="linearGradient8152"
+       x1="87.956"
+       x2="87.759"
+       y1="89.928"
+       y2="112.11"
+       gradientTransform="matrix(.67299 0 0 1 77.562 0)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient8784" />
+    <linearGradient
+       id="linearGradient8154"
+       x1="87.956"
+       x2="87.759"
+       y1="89.928"
+       y2="112.11"
+       gradientTransform="matrix(0.67299,0,0,3.0595827,77.562,-178.29821)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient8784" />
+    <linearGradient
+       id="Unbenannter_Verlauf"
+       data-name="Unbenannter Verlauf"
+       x1="848.63"
+       y1="425.64999"
+       x2="848.53003"
+       y2="435.95001"
+       gradientTransform="matrix(0.68,0,0,3.11,-560.32,-1286.51)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#1d1d1d"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#1d1d1d"
+         stop-opacity="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="Unbenannter_Verlauf1"
+       data-name="Unbenannter Verlauf"
+       x1="898.59998"
+       y1="425.64999"
+       x2="898.5"
+       y2="435.95001"
+       xlink:href="#Unbenannter_Verlauf"
+       gradientTransform="matrix(0.98657246,0,0,0.99051624,57.839622,82.777719)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Unbenannter_Verlauf"
+       id="linearGradient15"
+       x1="898.59998"
+       y1="425.64999"
+       x2="898.5"
+       y2="435.95001"
+       gradientTransform="matrix(0.98657246,0,0,0.99051624,90.557533,82.743947)" />
+    <linearGradient
+       id="Unbenannter_Verlauf2"
+       data-name="Unbenannter Verlauf"
+       x1="947.09003"
+       x2="946.98999"
+       xlink:href="#Unbenannter_Verlauf"
+       gradientTransform="matrix(0.98657246,0,0,0.99051624,57.839622,82.777719)" />
+    <linearGradient
+       id="Unbenannter_Verlauf_2"
+       data-name="Unbenannter Verlauf 2"
+       x1="52.830002"
+       y1="-248.73"
+       x2="52.740002"
+       y2="-238.42999"
+       gradientTransform="matrix(0.98657246,0,0,-0.99051624,58.431566,146.34905)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#1d1d1d"
+         id="stop9" />
+      <stop
+         offset="1"
+         stop-color="#1d1d1d"
+         stop-opacity="0"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="Unbenannter_Verlauf_3"
+       data-name="Unbenannter Verlauf 3"
+       x1="86.089996"
+       y1="-249.28"
+       x2="85.989998"
+       y2="-238.98"
+       gradientTransform="matrix(0.98657246,0,0,-0.99051624,58.431566,146.34905)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#1d1d1d"
+         id="stop11" />
+      <stop
+         offset="1"
+         stop-color="#1d1d1d"
+         stop-opacity="0"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Unbenannter_Verlauf"
+       id="linearGradient16"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.67086927,0,0,3.0805055,-494.95666,-1191.5313)"
+       x1="848.63"
+       y1="425.64999"
+       x2="848.53003"
+       y2="435.95001" />
+  </defs>
+  <g
+     transform="translate(-64.656 -103.6)"
+     id="g105">
+    <g
+       transform="matrix(.35714 0 0 .35714 44.019 74.056)"
+       id="g103">
+      <g
+         fill-rule="evenodd"
+         id="g21">
+        <rect
+           id="rect13"
+           class="st8"
+           x="57.839626"
+           y="82.856964"
+           width="99.33799"
+           height="59.83709"
+           style="fill:#101010;stroke-width:0.988542" />
+        <rect
+           id="rect53"
+           class="st7"
+           x="59.5168"
+           y="116.51472"
+           width="30.406164"
+           height="24.861959"
+           style="fill:url(#linearGradient16);stroke-width:0.988542" />
+        <rect
+           id="rect531"
+           data-name="rect53"
+           class="st6"
+           x="93.060265"
+           y="116.51472"
+           width="30.406164"
+           height="24.861959"
+           style="fill:url(#Unbenannter_Verlauf1);stroke-width:0.988542" />
+        <rect
+           id="rect531-8"
+           data-name="rect53"
+           class="st6"
+           x="125.77818"
+           y="116.48093"
+           width="30.406164"
+           height="24.861959"
+           style="fill:url(#linearGradient15);stroke-width:0.988542" />
+        <rect
+           id="rect532"
+           data-name="rect53"
+           class="st10"
+           x="125.61716"
+           y="116.51472"
+           width="30.406164"
+           height="24.861959"
+           style="fill:url(#Unbenannter_Verlauf2);stroke-width:0.988542" />
+        <rect
+           id="rect6"
+           class="st5"
+           x="59.5168"
+           y="90.147163"
+           width="30.406164"
+           height="24.861959"
+           style="fill:#1a1a1a;stroke-width:0.988542" />
+        <rect
+           id="rect7"
+           class="st9"
+           x="93.079994"
+           y="116.51472"
+           width="30.406164"
+           height="24.861959"
+           style="fill:url(#Unbenannter_Verlauf_2);stroke-width:0.988542" />
+        <rect
+           id="rect533"
+           class="st5"
+           x="93.079994"
+           y="90.147163"
+           width="30.406164"
+           height="24.861959"
+           style="fill:#1a1a1a;stroke-width:0.988542" />
+        <rect
+           id="rect534"
+           class="st4"
+           x="125.65662"
+           y="116.51472"
+           width="30.406164"
+           height="24.861959"
+           style="fill:url(#Unbenannter_Verlauf_3);stroke-width:0.988542" />
+        <rect
+           id="rect535"
+           class="st5"
+           x="125.65662"
+           y="90.147163"
+           width="30.406164"
+           height="24.861959"
+           style="fill:#1a1a1a;stroke-width:0.988542" />
+        <g
+           id="text2"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st0"
+             transform="translate(2.44,5.91)"
+             id="text7"
+             style="font-size:6.02px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#808080"><tspan
+               x="0"
+               y="0"
+               id="tspan7">VOLUME</tspan></text>
+        </g>
+        <g
+           id="text3"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st2"
+             transform="translate(9.17,21.82)"
+             id="text8"
+             style="font-size:6.02px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#999999"><tspan
+               x="0"
+               y="0"
+               id="tspan8">TIDAL</tspan></text>
+        </g>
+        <g
+           id="text4"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st2"
+             transform="translate(44.06,21.82)"
+             id="text9"
+             style="font-size:6.02px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#999999"><tspan
+               x="0"
+               y="0"
+               id="tspan9">PEEP</tspan></text>
+        </g>
+        <g
+           id="text5"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st2"
+             transform="translate(78.02,21.82)"
+             id="text10"
+             style="font-size:6.02px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#999999"><tspan
+               x="0"
+               y="0"
+               id="tspan10">P</tspan></text>
+        </g>
+        <g
+           id="text6"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st3"
+             transform="translate(81.37,23.82)"
+             id="text11"
+             style="font-size:3.49px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#999999"><tspan
+               x="0"
+               y="0"
+               id="tspan11">PEAK</tspan></text>
+        </g>
+        <g
+           id="g13"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st2"
+             transform="translate(11.51,47.91)"
+             id="text12"
+             style="font-size:6.02px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#999999"><tspan
+               x="0"
+               y="0"
+               id="tspan12">FiO</tspan></text>
+        </g>
+        <g
+           id="g14"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st3"
+             transform="translate(20.42,49.92)"
+             id="text13"
+             style="font-size:3.49px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#999999"><tspan
+               x="0"
+               y="0"
+               id="tspan13">2</tspan></text>
+        </g>
+        <g
+           id="g15"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st2"
+             transform="translate(45.48,47.91)"
+             id="text14"
+             style="font-size:6.02px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#999999"><tspan
+               x="0"
+               y="0"
+               id="tspan14">VTe</tspan></text>
+        </g>
+        <g
+           id="g16"
+           class="st1"
+           style="isolation:isolate"
+           transform="matrix(0.98657249,0,0,0.99051627,57.839625,82.777722)">
+          <text
+             class="st2"
+             transform="translate(78.12,47.91)"
+             id="text15"
+             style="font-size:6.02px;font-family:TrebuchetFlex, 'Trebuchet Flex';isolation:isolate;fill:#999999"><tspan
+               x="0"
+               y="0"
+               id="tspan15">MVe</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
