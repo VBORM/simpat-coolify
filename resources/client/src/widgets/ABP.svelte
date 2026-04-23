@@ -1,13 +1,21 @@
 <script>
-  import { values, format } from '../stores/simulation'
+  import { values, signal_values, format } from '../stores/simulation'
   import { getDictionary } from '../stores/locale'
 
   const dict = getDictionary()
 
-  $: sap = format($values.derived.sap, 0, '**')
-  $: dap = format($values.derived.dap, 0, '**')
-  $: map = format($values.derived.map, 0, '**')
-  $: cvp = format($values.derived.cvp, 0, '**')
+  export let label = dict['ABP']
+  export let stable = false
+  export let showCvp = true
+
+  $: stableMapValue =
+    typeof $signal_values.sap === 'number' && typeof $signal_values.dap === 'number'
+      ? $signal_values.dap + ($signal_values.sap - $signal_values.dap) / 3
+      : null
+  $: sap = stable ? format($signal_values.sap, 0, '**') : format($values.derived.sap, 0, '**')
+  $: dap = stable ? format($signal_values.dap, 0, '**') : format($values.derived.dap, 0, '**')
+  $: map = stable ? format(stableMapValue, 0, '**') : format($values.derived.map, 0, '**')
+  $: cvp = stable ? format($signal_values.cvp, 0, '**') : format($values.derived.cvp, 0, '**')
 
   const handleOpenTD = () => {
     if ($values.td_available) {
@@ -19,14 +27,16 @@
 </script>
 
 <div class="wrapper row" on:click={handleOpenTD}>
-  <div class="top-left red-small">{dict['ABP']}</div>
+  <div class="top-left red-small">{label}</div>
   <span class="value red-large"> {sap} / {dap} </span>
-  <div class="right-column">
+  <div class="right-column" class:compact={!showCvp}>
     <div class="top-right red-small">({map})</div>
-    <div class="cvp-line cyan-small">
-      <span>{dict['CVP']}</span>
-      <span>{cvp}</span>
-    </div>
+    {#if showCvp}
+      <div class="cvp-line cyan-small">
+        <span>{dict['CVP']}</span>
+        <span>{cvp}</span>
+      </div>
+    {/if}
   </div>
 </div>
 
@@ -79,6 +89,10 @@
     justify-content: space-between;
     text-align: right;
     margin-left: auto;
+  }
+
+  .right-column.compact {
+    justify-content: flex-start;
   }
 
   .cvp-line {

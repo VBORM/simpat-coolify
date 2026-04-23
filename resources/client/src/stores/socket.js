@@ -1,5 +1,5 @@
 import io from "socket.io-client";
-import { Target, values, computeTdResult } from "./simulation";
+import { Target, values, signal_values, computeTdResult } from "./simulation";
 
 const format = (input) => {
   return typeof input === "string" && /^[\.\d]+$/.test(input)
@@ -159,6 +159,11 @@ const applySignal = (roomId, signal) => {
   }
 
   writeCachedSignal(roomId, normalizedSignal);
+
+  signal_values.update((previous) => ({
+    ...previous,
+    ...normalizedSignal,
+  }));
 
   for (let key in normalizedSignal) {
     Target[key] = normalizedSignal[key];

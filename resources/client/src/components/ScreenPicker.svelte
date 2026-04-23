@@ -20,7 +20,7 @@
     </svg>
     <div class="options-list" on:click={handleSelect}>
       <img data-id="10" src="/assets/screen_select/screen10.svg" alt="" />
-      <img data-id="17" src="/assets/screen_select/screen10.svg" alt="" />
+      <img data-id="17" src="/assets/screen_select/screen17.svg" alt="" />
       <img data-id="9" src="/assets/screen_select/screen9.svg" alt="" />
       <img data-id="8" src="/assets/screen_select/screen8.svg" alt="" />
       <img data-id="4" src="/assets/screen_select/screen4.svg" alt="" />

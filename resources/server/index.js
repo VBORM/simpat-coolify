@@ -7,7 +7,6 @@ const userRouter = require('./api/user')
 const presetRouter = require('./api/preset')
 const cors = require('cors')
 const { Server } = require('socket.io')
-const PORT = process.env.PORT || 3000
 
 expressApp.use(express.json({ limit: '4mb' }))
 expressApp.use(cors())
@@ -54,7 +53,7 @@ io.on('connection', (socket) => {
   })
 })
 
-server.listen(PORT, '0.0.0.0', (error) => {
+server.listen(3000, '0.0.0.0', (error) => {
   if (error) {
     console.log(error)
   } else {

@@ -21,6 +21,8 @@ const td_values = writable({
   dirty: false
 })
 
+const signal_values = writable({})
+
 const static_keys = [
   'firstname',
   'surname',
@@ -211,4 +213,4 @@ const td_elapsed = derived([td_values, clock], ([$td_values]) =>
   formatTimeElapsed($td_values.last_td_at)
 )
 
-export { values, td_values, computeNextTick, computeTdResult, format, Target, td_elapsed }
+export { values, td_values, signal_values, computeNextTick, computeTdResult, format, Target, td_elapsed }
