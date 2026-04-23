@@ -12,10 +12,13 @@
     typeof $signal_values.sap === 'number' && typeof $signal_values.dap === 'number'
       ? $signal_values.dap + ($signal_values.sap - $signal_values.dap) / 3
       : null
+
   $: sap = stable ? format($signal_values.sap, 0, '**') : format($values.derived.sap, 0, '**')
   $: dap = stable ? format($signal_values.dap, 0, '**') : format($values.derived.dap, 0, '**')
   $: map = stable ? format(stableMapValue, 0, '**') : format($values.derived.map, 0, '**')
-  $: cvp = stable ? format($signal_values.cvp, 0, '**') : format($values.derived.cvp, 0, '**')
+  // Keep CVP exactly like the previous screen version: same position/style and still driven by
+  // the regular derived values instead of the stable NIBP snapshot logic.
+  $: cvp = format($values.derived.cvp, 0, '**')
 
   const handleOpenTD = () => {
     if ($values.td_available) {
@@ -29,7 +32,7 @@
 <div class="wrapper row" on:click={handleOpenTD}>
   <div class="top-left red-small">{label}</div>
   <span class="value red-large"> {sap} / {dap} </span>
-  <div class="right-column" class:compact={!showCvp}>
+  <div class="right-column">
     <div class="top-right red-small">({map})</div>
     {#if showCvp}
       <div class="cvp-line cyan-small">
@@ -89,10 +92,6 @@
     justify-content: space-between;
     text-align: right;
     margin-left: auto;
-  }
-
-  .right-column.compact {
-    justify-content: flex-start;
   }
 
   .cvp-line {

@@ -17,5 +17,6 @@
   <text x="1.55" y="16.55" font-family="Trebuchet MS, Arial, sans-serif" font-size="1.15" fill="#ff2b2b">NIBP</text>
   <text x="8.15" y="18.15" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="2.0" font-weight="700" fill="#ff2b2b">120 / 80</text>
   <text x="14.35" y="16.55" text-anchor="end" font-family="Trebuchet MS, Arial, sans-serif" font-size="1.15" fill="#ff2b2b">(93)</text>
+<text x="14.35" y="18.65" text-anchor="end" font-family="Trebuchet MS, Arial, sans-serif" font-size="1.0" fill="#00fefe">CVP 8</text>
   <rect x="16.2" y="0.85" width="18.45" height="18.4" rx="0.35" fill="#171717" stroke="#404040" stroke-width="0.2"/>
 </svg>

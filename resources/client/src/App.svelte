@@ -29,7 +29,7 @@
   let screenPicker = false;
   let activeScreen = "10";
   let scaleFactor = 1;
-  const SIMULATION_CLIENT_VERSION = "3.1.7-release-1";
+  const SIMULATION_CLIENT_VERSION = "3.1.9-release-1";
 
   console.info("[SimPaT Viewer]", SIMULATION_CLIENT_VERSION);
 
