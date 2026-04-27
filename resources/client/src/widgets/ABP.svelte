@@ -7,33 +7,15 @@
   export let label = dict['ABP']
   export let stable = false
   export let showCvp = true
-  export let fixedSap = null
-  export let fixedDap = null
-  export let fixedMap = null
 
   $: stableMapValue =
     typeof $signal_values.sap === 'number' && typeof $signal_values.dap === 'number'
       ? $signal_values.dap + ($signal_values.sap - $signal_values.dap) / 3
       : null
 
-  $: sap =
-    typeof fixedSap === 'number'
-      ? format(fixedSap, 0, '**')
-      : stable
-        ? format($signal_values.sap, 0, '**')
-        : format($values.derived.sap, 0, '**')
-  $: dap =
-    typeof fixedDap === 'number'
-      ? format(fixedDap, 0, '**')
-      : stable
-        ? format($signal_values.dap, 0, '**')
-        : format($values.derived.dap, 0, '**')
-  $: map =
-    typeof fixedMap === 'number'
-      ? format(fixedMap, 0, '**')
-      : stable
-        ? format(stableMapValue, 0, '**')
-        : format($values.derived.map, 0, '**')
+  $: sap = stable ? format($signal_values.sap, 0, '**') : format($values.derived.sap, 0, '**')
+  $: dap = stable ? format($signal_values.dap, 0, '**') : format($values.derived.dap, 0, '**')
+  $: map = stable ? format(stableMapValue, 0, '**') : format($values.derived.map, 0, '**')
   // Keep CVP exactly like the previous screen version: same position/style and still driven by
   // the regular derived values instead of the stable NIBP snapshot logic.
   $: cvp = format($values.derived.cvp, 0, '**')

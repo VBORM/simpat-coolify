@@ -13,7 +13,7 @@
     <!-- Not needed in this screen -->
   </div>
   <div class="box" style="grid-area: 4 / 1 / 5 / 2">
-    <ABP label="NIBP" showCvp={true} fixedSap={85} fixedDap={50} fixedMap={62} />
+    <ABP label="NIBP" stable={true} showCvp={true} />
   </div>
   <div class="box" style="grid-area: 1 / 2 / 5 / 3">
     <HR_SPO2_RESP_TB />
